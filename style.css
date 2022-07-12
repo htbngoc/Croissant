@@ -75,7 +75,7 @@ footer {
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 412px) {
   .body {
     padding: 0% 0%;
   }
