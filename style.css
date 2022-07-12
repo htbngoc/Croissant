@@ -1,0 +1,88 @@
+body {
+  background-image: url(img/58330.webp);
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  margin: 0% 0%;
+}
+
+a {
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  margin-right: 10px;
+}
+
+a:hover {
+  color: black;
+}
+
+footer {
+  display: block;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.navigationBar {
+  margin: 0% 0%;
+  padding: 20px 20px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+.body {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px 20px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.email {
+  color: brown !important;
+}
+
+.sun {
+  margin-top: 20px;
+  width: 400px;
+  transition-timing-function: ease-in-out;
+}
+.sun:hover {
+  transform: rotate(10turn);
+  transition-duration: 30s;
+  cursor: grab;
+}
+
+.cloud {
+  margin-top: 20px;
+  width: 400px;
+}
+.cloud:hover {
+  cursor: pointer;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 20%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 385) {
+  .body {
+    padding: 0% 0%;
+  }
+  .sun {
+    width: 150px;
+  }
+  .cloud {
+    width: 150px;
+  }
+}
