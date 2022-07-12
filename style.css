@@ -75,14 +75,14 @@ footer {
   }
 }
 
-@media (max-width: 385) {
+@media (max-width: 390px) {
   .body {
     padding: 0% 0%;
   }
   .sun {
-    width: 150px;
+    width: 200px;
   }
   .cloud {
-    width: 150px;
+    width: 200px;
   }
 }
